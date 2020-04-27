@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+}
+.container .column {
+    flex-basis: 20%;
+}
+.features {
+    font-weight: bold;
+}
+.table {
+    border: 1px solid #e0e0e0;
+}
+.table:not(:last-child) {
+    border-right: none;
+}
+.table .title {
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+}
+.table .item {
+    padding: 10px;
+    min-height: 18px;
+}
+.product {
+    position: relative;
+    padding: 20px 15px 5px;
+    min-height: 230px;
+}
+.product h1 {
+    margin: 0;
+}
+.product .itemSelected {
+    font-size: 12px;
+    color: #212121;
+}
+.product .difference {
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #424242;
+}
+.product .image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product img {
+    width: 50%;
+    height: 50%;
+}
+.product .close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #bdbdbd;
+    font-weight: bold;
+    padding: 3px 7px;
+    border-radius: 50%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.product .title {
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.product .imageSpace {
+    margin: 20px 0;
+    min-height: 120px;
+    background-color: #eeeeee;
+}
+.product .addProduct {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product .selection {
+    max-width: 260px;
+}
+
+.prices {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.prices span {
+    margin-right: 10px;
+}
+.prices .discount {
+    text-decoration: line-through;
+    color: #9e9e9e;
+}
+.prices .off {
+    color: green;
+    font-size: 12px;
+}
